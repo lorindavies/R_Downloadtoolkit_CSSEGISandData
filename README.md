@@ -10,5 +10,4 @@ Toolkit for downloading Johns Hopkins CSSEGIS Data into R via raw github repo
 Data from CSSE git repo
 https://github.com/CSSEGISandData/COVID-19
 
-Terms of Use:
 
