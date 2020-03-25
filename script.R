@@ -17,7 +17,7 @@ CSSEGISandData <- read_csv(glue("https://raw.githubusercontent.com/CSSEGISandDat
 
 working_df <-
   CSSEGISandData %>% 
-  group_by(`Country/Region`) %>% 
+  group_by(`Country_Region`) %>% 
   summarise(Confirmed = sum(Confirmed),
             Deaths = sum(Deaths),
             Recovered = sum(Recovered),
